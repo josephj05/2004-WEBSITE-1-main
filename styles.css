@@ -1,0 +1,58 @@
+/* page center alignment + background */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+/* form card */
+  form {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 420px;
+  }
+  
+/* label/input default */
+  label {
+    display: block;
+    margin: 8px 0 6px;
+    font-weight: bold;
+    color: #000;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+  }
+  
+/* button */
+  button {
+    width: 100%;
+    background: blue;
+    color: #f0f8ff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  button:hover {
+    background: blue;
+  }
+  
+/* focus status */
+  input:focus {
+    border-color: #7b4397;
+    outline: none;
+  }
