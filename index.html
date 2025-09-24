@@ -138,6 +138,72 @@
         </tfoot>
       </table>
     </section>
+    <!-- Flexbox Cheatsheet & Header Demo -->
+    <section id="flexbox" class="section">
+      <h2>Flexbox, Header</h2>
+      <p>
+        아래는 수업에서 다룬 Flexbox 핵심 속성 정리와, 실제 헤더(nav) 레이아웃에 적용한 간단한 데모입니다.
+      </p>
+
+      <div class="flex-grid">
+        <article class="card">
+          <h3>Cheatsheet</h3>
+          <ul class="flex-cheatsheet">
+            <li><strong>justify-content</strong> — <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code></li>
+            <li><strong>align-items</strong> — <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code> (default)</li>
+            <li><strong>flex-direction</strong> — <code>row</code> (default) <code>row-reverse</code> <code>column</code> <code>column-reverse</code></li>
+            <li><strong>order</strong> — <code>&lt;integer&gt;</code> (… <code>-1</code>, <code>0</code> default, <code>1</code> …)</li>
+            <li><strong>align-self</strong> — 아이템 개별 교차축 정렬( <code>align-items</code> 무시 ) <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code></li>
+            <li><strong>flex-wrap</strong> — <code>nowrap</code> (default) <code>wrap</code> <code>wrap-reverse</code></li>
+            <li><strong>flex-flow</strong> — <em>단축</em> (<code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>)</li>
+            <li><strong>align-content</strong> — <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>space-evenly</code> <code>stretch</code> (default)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Header Layout Demo</h3>
+
+          <!-- space-between + center -->
+          <div class="flex-demo demo-1">
+            <a class="logo" href="#top">Demo</a>
+            <ul class="nav">
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#movies">Movies</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+            <button class="btn">Action</button>
+          </div>
+
+          <!-- center -->
+          <div class="flex-demo demo-2">
+            <a class="logo" href="#top">Demo</a>
+            <ul class="nav">
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#movies">Movies</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+            <button class="btn">Action</button>
+          </div>
+
+          <!-- column direction + wrap -->
+          <div class="flex-demo demo-3">
+            <a class="logo" href="#top">Demo</a>
+            <ul class="nav">
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#movies">Movies</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+            <button class="btn">Action</button>
+          </div>
+
+          </p>
+        </article>
+      </div>
+    </section>
+
 
     <section id="subscribe" class="section">
       <h2>Subscribe for Updates</h2>
